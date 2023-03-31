@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .Colors {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .Colors>button{
+       padding: 10px 100px;
+       border: none;
+       background-color: black;
+       color: white;
+       font-size: 50px;
+       cursor: pointer;
+       border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Colors">
+      <button onclick="handleClick()">Color change</button>
+    </div>
+
+    <script>
+      const colors = ["red", "blue", "green", "yellow"];
+      const handleClick = () => {
+        var randomNumber = '#'+Math.floor(Math.random() *16777215).toString(16);
+        console.log(randomNumber);
+        const Change = document.querySelector(".Colors");
+        Change.style.background = randomNumber;
+    
+      };
+    </script>
+  </body>
+</html>

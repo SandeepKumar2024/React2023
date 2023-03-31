@@ -1,0 +1,28 @@
+body{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 40, 55);
+    position: relative;
+
+
+
+
+}
+
+.constainer{
+  background-color: rebeccapurple;
+  position: absolute;
+  width: 500px;
+  height: 50vh;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 100px;
+  display: flex;
+  
+  padding: 20px;
+  
+ 
+}

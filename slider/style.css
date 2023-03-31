@@ -1,0 +1,29 @@
+.leftArrow{
+    width: 100px;
+    cursor: pointer;
+    
+}
+.rightArrow{
+    width: 100px;
+    transform: rotate(180deg);
+    cursor: pointer;
+
+}
+
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    
+}
+.faeture{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+
